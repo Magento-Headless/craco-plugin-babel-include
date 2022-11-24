@@ -4,6 +4,11 @@
   "description": "Craco plugin which allows to import uncompiled modules from outside the src directory",
   "private": true,
   "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Magento-Headless/craco-plugin-babel-include",
+    "directory": "/"
+  },
   "keywords": [
     "craco",
     "craco-plugin",
