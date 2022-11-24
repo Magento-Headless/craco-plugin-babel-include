@@ -1,0 +1,25 @@
+{
+  "name": "craco-plugin-babel-include",
+  "version": "1.0.0",
+  "description": "Craco plugin which allows to import uncompiled modules from outside the src directory",
+  "private": true,
+  "main": "dist/index.js",
+  "keywords": [
+    "craco",
+    "craco-plugin",
+    "create-react-app",
+    "babel"
+  ],
+  "scripts": {
+    "build": "tsdx build --entry index.ts --target node --format cjs"
+  },
+  "devDependencies": {
+    "@types/node": "^12.0.0",
+    "typescript": "^3.9.0"
+  },
+  "dependencies": {
+    "@craco/craco": "^7.0.0",
+    "tsdx": "^0.14.1",
+    "tslib": "^2.4.1"
+  }
+}
