@@ -2,7 +2,7 @@
   "name": "craco-plugin-babel-include",
   "version": "1.0.0",
   "description": "Craco plugin which allows to import uncompiled modules from outside the src directory",
-  "private": true,
+  "private": false,
   "main": "dist/index.js",
   "repository": {
     "type": "git",
